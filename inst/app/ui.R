@@ -54,13 +54,13 @@ dd <- material_row(
 
 ####----------------
 ui <- material_page(
-  nav_bar_color = "#00695c teal darken-1",
+  nav_bar_color = "teal darken-1", # changed from "#00695c teal darken-1"
   title = "mapping GeoRSS feeds with R",
   tags$br(),
   
   
   material_tabs(
-    color = "#009688 teal",
+    color = "teal", # changed from "#009688 teal"
     tabs = c(
       "Map" = "first_tab",
       "Data & Details" = "second_tab"
