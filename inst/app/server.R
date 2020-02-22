@@ -18,7 +18,7 @@ If you don't have one, \n https://inciweb.nwcg.gov/feeds/rss/incidents/ \n is a 
       icon = 'glyphicon-fire',
       iconColor = 'black',
       library = 'glyphicon',
-      markerColor = "#ee5622"
+      markerColor = "orange" # changed from "#ee5622"
     )
     
     lmap <- leaflet(data = geo()) %>%
